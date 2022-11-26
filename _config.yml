@@ -103,5 +103,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/CyndiFan/CyndiFan.git'
+  repo: 'https://github.com/cyndifan/cyndifan.github.io.git'
   branch: 'master'

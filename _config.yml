@@ -104,3 +104,4 @@ theme: landscape
 deploy:
   type: ''
   repo: 'https://github.com/BruceFange/myBlog.git'
+  branch: 'hexo'

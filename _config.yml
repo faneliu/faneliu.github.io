@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 帆的博客
+title: Fane Liu 's blog
 subtitle: ''
 description: ''
-keywords: 帆的博客
-author: liufan
-language: zh-Hans
+keywords: Fane Liu
+author: Fane Liu
+language: en
 timezone: ''
 
 # URL
@@ -97,11 +97,38 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/cyndifan/cyndifan.github.io.git'
+  repo: 'https://github.com/faneliu/faneliu.github.io.git'
   branch: 'master'
+
+# archer
+jsonContent:
+  meta: true
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: true
+    excerpt: false
+    categories: true
+    tags: true
+
+
+categories:
+- [数据结构与算法]
+- [Tools]
+- [React]
+- [Javascript]

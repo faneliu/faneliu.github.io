@@ -6,8 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
-    "quick-deploy": "hexo clean && hexo g && hexo d"
+    "server": "hexo server && hexo g --watch",
+    "qd": "hexo clean && hexo g && hexo d"
   },
   "hexo": {
     "version": "6.3.0"
@@ -18,11 +18,14 @@
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
+    "hexo-generator-json-content": "^4.2.3",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-theme-fluid": "^1.9.3",
+    "hexo-theme-landscape": "^0.0.3",
+    "hexo-wordcount": "^6.0.1"
   }
 }
